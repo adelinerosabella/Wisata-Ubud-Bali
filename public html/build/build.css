@@ -26,7 +26,7 @@ pre[class*="language-"] {
 }
 body
 {
-	background-image: url("/images/background.jpeg")
+	background-image: url("../images/background.jpeg")
 }
 .bespoke-parent
 {
@@ -188,6 +188,9 @@ pre[class*="language-"] {
 	-o-transform: translate3d(640px, 0, 0);
 	transform: translate3d(640px, 0, 0);
 	opacity: 0.3;
+}
+p{
+     text-align : justify;
 }
 
 

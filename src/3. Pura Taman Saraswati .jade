@@ -1,19 +1,13 @@
 doctype html
 html
-  head
-    meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
-    title Pura Taman Saraswati
+  include header
 
-    link(rel='stylesheet', type='text/css', href='build/build.css')
-
-  body
-
+  body.classic
+    include menu
     article
-
       Section
         h1 Pura Taman Saraswati
-        img(src="images/Pura-Taman-Saraswati-Ubud.jpg")
+        img(src="images/Pura-Taman-Saraswati-Ubud.jpg" height = 300 width = 600)
 
       section
         h2 Penjelasan Pura Taman Saraswati
@@ -26,9 +20,9 @@ html
       section
         h2 Menonton Tari Kecak Di Pura Taman Saraswati Ubud
         p Sebelum kami menuliskan tentang tari kecak di Pura Taman Saraswati Ubud. Ada baiknya kami menuliskan sedikit tentang pura Pura Taman Saraswati Ubud.
-
-      Section
         P Seperti yang anda tahu, pura adalah tempat suci agama hindu di Bali dan pura Taman Saraswati Ubud adalah salah satunya. Pura ini, sesuai dengan namanya adalah tempat pemujaan Dewi Saraswati (Dewi Pengetahuan). Lokasi dari pura ini, terdapat di jalan raya Ubud.
+
+      section
         p Pura Taman Saraswati Ubud, sedikit berbeda dari pura-pura lain yang ada di Bali. Pura ini memiliki kolam yang banyak terdapat bunga teratai dan kolam teratai inilah, daya tarik utama dari pura Saraswati.
         p Jika anda menyukai melihat seni ukir khas Ubud Bali, disinilah tempatnya untuk melihat. Hampir setiap bangunan pura, terdapat seni ukir dari para seniman Ubud.
 
@@ -49,9 +43,6 @@ html
         p Bagi anda yang tidak memilih hotel tempat menginap di Ubud dan berencana untuk wisata ke Ubud, ada beberapa cara yang dapat anda lakukan untuk dapat berwisata ke objek wisata Ubud.
         h3 1. Mencari Jasa Sewa Mobil Dengan Supir Di Bali
         p Dengan cara menyewa mobil + driver di Bali, akan sangat memudahkan anda untuk berpergian dari satu tempat wisata di Bali ke tempat wisata yang lain, tanpa memikirkan mencari tempat parkir, mencari jalan pintas, serta memikirakan tetang kemacetan jalanan.
-
-
-      Section
         p Objek wisata di Ubud, sangat jarang tersedia tempat parkir mobil, hampir sebagian besar, orang parkir di penggir jalan dan sangat sering penuh. Karena hal ini, kami sangat menyarankan anda untuk mencari penyedia jasa rent car di Bali dengan supir.
 
       Section
@@ -59,5 +50,5 @@ html
         p Karena Ubud sangat terkenal dan mendapat permintaan yang sangat tinggi dari wisatawan, maka sangat banyak penyedia usaha perjalanan wisata yang menyediakan Ubud tour.
         p Kelebihan dari membeli paket tour murah di Bali, selain anda mendapat kelebihan layanan jasa sewa mobil dengan supir, jadwal tour anda akan terencana dan terarah. Selain itu, budget liburan anda akan terencana. 
 
+   include footer
 
-    script(src='build/build.js')
