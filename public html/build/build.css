@@ -24,7 +24,26 @@ pre[class*="language-"] {
 	-ms-hyphens: none;
 	hyphens: none;
 }
-
+body
+{
+	background-image: url("/images/background.jpeg")
+}
+.bespoke-parent
+{
+	background: transparent;
+	color: white;
+}
+.bespoke-slide
+{
+	background: transparent;
+	z-index: 1;
+}
+.navbar
+{
+	background: transparent;
+	position: absolute;
+	z-index: 2;
+}
 /* Code blocks */
 pre[class*="language-"] {
 	padding: 1em;
@@ -116,3 +135,59 @@ pre[class*="language-"] {
 .token.entity {
 	cursor: help;
 }
+.classic {
+}
+.classic section,
+.classic .arrow:hover {
+}
+.classic a {
+	color: rgb(243, 111, 86);
+}
+.classic section.bespoke-before {
+	-webkit-transform: translate3d(-1920px, 0, 0);
+	-moz-transform: translate3d(-1920px, 0, 0);
+	-ms-transform: translate3d(-1920px, 0, 0);
+	-o-transform: translate3d(-1920px, 0, 0);
+	transform: translate3d(-1920px, 0, 0);
+}
+.classic section.bespoke-before-2 {
+	-webkit-transform: translate3d(-1280px, 0, 0);
+	-moz-transform: translate3d(-1280px, 0, 0);
+	-ms-transform: translate3d(-1280px, 0, 0);
+	-o-transform: translate3d(-1280px, 0, 0);
+	transform: translate3d(-1280px, 0, 0);
+	opacity: 0.1;
+}
+.classic section.bespoke-before-1 {
+	-webkit-transform: translate3d(-640px, 0, 0);
+	-moz-transform: translate3d(-640px, 0, 0);
+	-ms-transform: translate3d(-640px, 0, 0);
+	-o-transform: translate3d(-640px, 0, 0);
+	transform: translate3d(-640px, 0, 0);
+	opacity: 0.3;
+}
+.classic section.bespoke-after {
+	-webkit-transform: translate3d(1920px, 0, 0);
+	-moz-transform: translate3d(1920px, 0, 0);
+	-ms-transform: translate3d(1920px, 0, 0);
+	-o-transform: translate3d(1920px, 0, 0);
+	transform: translate3d(1920px, 0, 0);
+}
+.classic section.bespoke-after-2 {
+	-webkit-transform: translate3d(1280px, 0, 0);
+	-moz-transform: translate3d(1280px, 0, 0);
+	-ms-transform: translate3d(1280px, 0, 0);
+	-o-transform: translate3d(1280px, 0, 0);
+	transform: translate3d(1280px, 0, 0);
+	opacity: 0.1;
+}
+.classic section.bespoke-after-1 {
+	-webkit-transform: translate3d(640px, 0, 0);
+	-moz-transform: translate3d(640px, 0, 0);
+	-ms-transform: translate3d(640px, 0, 0);
+	-o-transform: translate3d(640px, 0, 0);
+	transform: translate3d(640px, 0, 0);
+	opacity: 0.3;
+}
+
+
