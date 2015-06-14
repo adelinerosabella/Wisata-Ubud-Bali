@@ -75,12 +75,16 @@ body
 }
 #presentation-chooser a:hover
 {
-	color: black !important;
+	color: rgb(119,119,119) !important;
 	background: rgba(255,255,255,0.1)!important;
 }
 .navbar ul
 {
 	background : url("../images/background.jpg");
+}
+.bespoke-progress-bar
+{
+	z-index: 2;
 }
 /* Code blocks */
 pre[class*="language-"] {
