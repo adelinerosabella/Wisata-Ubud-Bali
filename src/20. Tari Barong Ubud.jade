@@ -1,29 +1,20 @@
 doctype html
 html
-  head
-    meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
-    title Pura Gunung Lebah
+  include header
 
-
-    link(rel='stylesheet', type='text/css', href='build/build.css')
-
-  body
-
+  body.classic
+    include menu
     article
 
       section.emphatic-text(data-bespoke-backdrop='emphatic')
         h2 Tari Barong Ubud
-        img.big(src="images/TariBarongUbud.jpg" height = 250 width = 600)
+        img.big(src="images/TariBarongUbud.jpg" height = 300 width = 600)
 
       section.emphatic-text(data-bespoke-backdrop='emphatic')        
         p Salah satu objek wisata di Bali yang patut anda kunjungi selama liburan di pulau dewata adalah desa Ubud. Ada beberapa alasan kenapa kami merekomendasi anda untuk berwisata ke Ubud. Hal ini di karenakan, tempat wisata di Ubud memiliki berbagai macam pilihan tempat wisata, baik untuk wisata alam, wisata budaya dan wisata seni, khususnya seni lukis dan seni tari seperti tari Barong Ubud.
 
       section.emphatic-text(data-bespoke-backdrop='emphatic')
-        p Ubud sangat terkenal akan wisata alam seperti aktivitas rafting di sungai Ayung Ubud, wisata ke museum seni lukis atau menonton pertunjukan seni tari, yang hampir setiap hari diadakan di berbagai tempat di objek wisata Ubud.
-
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        p Saking terkenalnya objek wisata Ubud, baik di kalangan wisatawan domestik dan wisatawan mancanegara, membuat Ubud tidak pernah sepi dari kunjungan wisatawan setiap harinya. Hal ini membuat objek wisata Ubud memiliki begitu banyak sarana pariwisata, terutama tempat menginap, baik dari hotel maupun villa.
+        p Ubud sangat terkenal akan wisata alam seperti aktivitas rafting di sungai Ayung Ubud, wisata ke museum seni lukis atau menonton pertunjukan seni tari, yang hampir setiap hari diadakan di berbagai tempat di objek wisata Ubud. Saking terkenalnya objek wisata Ubud, baik di kalangan wisatawan domestik dan wisatawan mancanegara, membuat Ubud tidak pernah sepi dari kunjungan wisatawan setiap harinya. Hal ini membuat objek wisata Ubud memiliki begitu banyak sarana pariwisata, terutama tempat menginap, baik dari hotel maupun villa.
 
       section.emphatic-text(data-bespoke-backdrop='emphatic')
         p Para pengusaha travel agent di Bali, juga berlomba menawarkan berbagai macam paket wisata, yang menfokuskan akan paket liburan di Ubud Bali. Kami juga tidak ketinggalan dalam menawarkan paket liburan ke Ubud. Tentunya setiap wisatawan yang berlibur di Bali tidak semua memilih untuk membeli paket wisata ke Ubud, ada banyak wisatawan yang juga memilih untuk wisata di Ubud tanpa membeli paket wisata.
@@ -31,13 +22,13 @@ html
       section.emphatic-text(data-bespoke-backdrop='emphatic')
         p Sebagian dari mereka dalam berwisata di Ubud tentunya akan memerlukan sarana tranfortasi, dan wisatawan sebagian besar akan mengunakan jasa sewa mobil dan driver di Bali. Dengan alasan murah dan tidak perlu memikirkan tempat parkir dan jalanan macet.
 
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
+      section
         h3 Pertunjukan Kesenian Tari Barong Ubud
         p Saat anda wisata di Bali, tentunya anda tidak hanya ingin diam di hotel atau menghabiskan waktu ke shoping mall, tanpa melihat sesuatu yang unik dan hanya ada di Bali, seperti pertujukan kesenian khas tradisional budaya Bali. Salah satu pertunjukan seni yang paling di cari di Ubud adalah pertunjukan tari Barong Ubud dan tari kecak Ubud.
 
       section.emphatic-text(data-bespoke-backdrop='emphatic')
         p Tarian Barong sebuah kesenian tari tradisional di Bali, yang sebagian penarinya menggunakan topeng dan kostum yang menyerupai hewan. Jenis tari Barong yang paling banyak di minati adalah tari Barong Ket. Lalu apa itu Barong Ket?
-        p Jika di lihat dari bentuknya, Barong Ket merupakan perpaduan bentuk binatang antara harimau, singa, ular naga dan sapi. Seluruh badan dari Barong Ket, dihiasi dengan ukiran tradisional Bali yang berbahan dasar kulit sapi dan dalam ukiran tersebut terdapat puluhan cermin kaca yang berukuran kecil.
+        P Jika di lihat dari bentuknya, Barong Ket merupakan perpaduan bentuk binatang antara harimau, singa, ular naga dan sapi. Seluruh badan dari Barong Ket, dihiasi dengan ukiran tradisional Bali yang berbahan dasar kulit sapi dan dalam ukiran tersebut terdapat puluhan cermin kaca yang berukuran kecil.
 
       section.emphatic-text(data-bespoke-backdrop='emphatic')
         p Jadi pada saat ada cahaya yang mengenai cermin kaca, membuat wujud dari Barong kelihatan berkilauan. Untuk membuat tampak seperti bintang, maka di Barong Ket anda akan melihat banyak Bulu. Bulu ini terbuat dari serat daun tanaman yang dikeringkan dan biasanya mengunakan daun pandan dan ijuk
@@ -93,6 +84,4 @@ html
         p Jika anda ingin menonton tarian Barong di Bali dan tidak berencana sebelumnya, sebaiknya tanyakan terlebih dahulu mengenai lokasi pementasan dan harga tiket ke supir yang mengantar anda atau melalui media informasi yang disediakan di tempat anda menginap.
 
 
-   script(src='build/build.js')
-
-
+   include footer
