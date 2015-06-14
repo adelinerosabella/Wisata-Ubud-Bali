@@ -3,7 +3,23 @@
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
  * @author ocodia
  */
-
+.zebra-table {
+color: #fff;
+width: 100%;
+box-shadow: 0 2px 3px 1px #ddd;
+}
+.zebra-table th,.zebra-table td{
+vertical-align: top;
+padding:10px 7px;
+text-align: left;
+margin:0;
+}
+.zebra-table tbody tr:nth-child(odd) {
+background:rgb(82,82,82);
+}
+.zebra-table td{
+	border: 2px solid #fff;
+}
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #f8f8f2;
@@ -43,6 +59,28 @@ body
 	background: transparent;
 	position: absolute;
 	z-index: 2;
+}
+.navbar
+{
+	background: rgba(255,255,255,0.1)!important;
+	border:0px solid!important;
+}
+.navbar-brand
+{
+	color:white !important;
+}
+#presentation-chooser a
+{
+	color: white !important;
+}
+#presentation-chooser a:hover
+{
+	color: black !important;
+	background: rgba(255,255,255,0.1)!important;
+}
+.navbar ul
+{
+	background : url("../images/background.jpg");
 }
 /* Code blocks */
 pre[class*="language-"] {
